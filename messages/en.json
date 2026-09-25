@@ -61,7 +61,6 @@
     "connectionError": "Connection error",
     "errorMessage": "Sorry, an error occurred. Please try again or contact us at contact@m2h2.org"
   },
-
   "footer": {
     "description": "Marguerita Holistic Health Center - Holistic support and care for your overall well-being and human capital development.",
     "quickLinks": "Quick links",
@@ -179,7 +178,9 @@
       "youthPrograms": "Youth Programs",
       "youthProgramsDesc": "Youth support and training",
       "schoolDonations": "School Donations",
-      "schoolDonationsDesc": "Supporting children's education"
+      "schoolDonationsDesc": "Supporting children's education",
+      "bidDay": "IsDB Group Day in Cameroon",
+      "bidDayDesc": "Cameroon — Islamic Development Bank cooperation"
     }
   },
   "about": {

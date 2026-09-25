@@ -170,6 +170,16 @@ const galleryFolders: GalleryFolder[] = [
     count: 11,
     thumbnail: "/gallery/REMISE DE DONS SCOLAIRES/1.jpg"
   },
+  {
+    id: "16",
+    name: "JOURNEE_BID",
+    displayNameKey: "bidDay",
+    descriptionKey: "bidDayDesc",
+    folderPath: "JOURNEE DU GROUPE DE LA BID",
+    category: "institutions",
+    count: 13,
+    thumbnail: "/gallery/JOURNEE DU GROUPE DE LA BID/1.jpg"
+  },
 ]
 
 export default function GalleryPage() {
