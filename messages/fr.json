@@ -59,7 +59,7 @@
     "newConversation": "Nouvelle conversation",
     "conversationReset": "Conversation réinitialisée. Comment puis-je vous aider ?",
     "connectionError": "Erreur de connexion",
-    "errorMessage": "Désolé, une erreur s'est produite. Veuillez réessayer ou contactez-nous à contact@m2h2.org"
+    "errorMessage": "Désolé, une erreur s'est produite. Veuillez réessayer ou contactez-nous à mholistichealthcenter@gmail.com"
   },
   "footer": {
     "description": "Marguerita Holistic Health Center - Accompagnement et prise en charge holistique pour votre bien-être global et le développement du capital humain.",
@@ -423,9 +423,10 @@
     "info": {
       "phone": "Téléphone",
       "phoneNumber": "+237 699 412 460",
+      "phoneNumber2": "+237 693 480 836",
       "phoneSubtitle": "Orange Money disponible",
       "email": "Email",
-      "emailAddress": "contact@m2hc.org",
+      "emailAddress": "mholistichealthcenter@gmail.com",
       "emailSubtitle": "Réponse sous 24-48h",
       "bank": "Compte Bancaire",
       "bankNumber": "679 012 650 01",

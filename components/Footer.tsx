@@ -157,13 +157,16 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">{t("contact")}</h3>
             <ul className="space-y-3">
-              <li className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 flex-shrink-0" style={{ color: primaryColor }} />
-                <span className="text-gray-400 text-sm">+237 699 412 460</span>
+              <li className="flex items-start space-x-3">
+                <Phone className="h-5 w-5 flex-shrink-0 mt-0.5" style={{ color: primaryColor }} />
+                <div className="text-gray-400 text-sm">
+                  <div>+237 699 412 460</div>
+                  <div>+237 693 480 836</div>
+                </div>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 flex-shrink-0" style={{ color: primaryColor }} />
-                <span className="text-gray-400 text-sm break-all">contact@m2hc.org</span>
+                <span className="text-gray-400 text-sm break-all">mholistichealthcenter@gmail.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" style={{ color: primaryColor }} />

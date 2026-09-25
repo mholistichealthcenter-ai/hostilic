@@ -15,11 +15,18 @@ export default function ContactPage() {
   const tInfo = useTranslations('contact.info')
   const tForm = useTranslations('contact.form')
   
-  const contactInfo = [
+  const contactInfo: {
+    icon: typeof Phone
+    title: string
+    details: string
+    details2?: string
+    subtitle: string
+  }[] = [
     {
       icon: Phone,
       title: tInfo('phone'),
       details: tInfo('phoneNumber'),
+      details2: tInfo('phoneNumber2'),
       subtitle: tInfo('phoneSubtitle'),
     },
     {
@@ -123,6 +130,9 @@ export default function ContactPage() {
                     {info.title}
                   </h3>
                   <p className="text-sm md:text-base text-gray-900 font-medium mb-1 break-words">{info.details}</p>
+                  {info.details2 && (
+                    <p className="text-sm md:text-base text-gray-900 font-medium mb-1 break-words">{info.details2}</p>
+                  )}
                   <p className="text-xs md:text-sm text-gray-600">{info.subtitle}</p>
                 </CardContent>
               </Card>
@@ -283,7 +293,7 @@ export default function ContactPage() {
                   Notre équipe est disponible pour répondre à vos questions urgentes
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="tel:+33123456789">
+                  <a href="tel:+237693480836">
                     <Button size="lg" className="bg-white hover:bg-gray-100" style={{ color: '#0D47A1' }}>
                       <Phone className="h-5 w-5 mr-2" />
                       Appelez-nous
