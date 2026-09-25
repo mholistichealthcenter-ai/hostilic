@@ -167,7 +167,7 @@ const galleryFolders: GalleryFolder[] = [
     descriptionKey: "schoolDonationsDesc",
     folderPath: "REMISE DE DONS SCOLAIRES",
     category: "communautaire",
-    count: 11,
+    count: 21,
     thumbnail: "/gallery/REMISE DE DONS SCOLAIRES/1.jpg"
   },
   {
