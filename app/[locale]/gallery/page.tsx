@@ -180,6 +180,16 @@ const galleryFolders: GalleryFolder[] = [
     count: 13,
     thumbnail: "/gallery/JOURNEE DU GROUPE DE LA BID/1.jpg"
   },
+  {
+    id: "17",
+    name: "FEMME_RURALE",
+    displayNameKey: "ruralWomenDay",
+    descriptionKey: "ruralWomenDayDesc",
+    folderPath: "JOURNEE INTERNATIONALE DE LA FEMME RURALE",
+    category: "evenements",
+    count: 9,
+    thumbnail: "/gallery/JOURNEE INTERNATIONALE DE LA FEMME RURALE/1.jpg"
+  },
 ]
 
 export default function GalleryPage() {
